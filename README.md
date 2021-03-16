@@ -17,9 +17,10 @@ You will also see any lint errors in the console.
 ## Bulid Your own profile
 If you want to  build you own profile, follow below steps to  set it up
 - We have `Variables.js` under `src/utils`.
-- You can update `name` field to get your name in that file.
+- You can update `name` field to get your name.
 - In `profile`, you can add url of your profile img or  you get from local drive. Under `assets` folder replace your profile with name of  `profile.jpg`
-- You can add your `Key:Value` pair with Key as Tittle, Value as URL. This will create link to your content. 
+- You can add your `Key:Value` pair with Key as Tittle, Value as URL. This will create link to your content.
+- Save the file and run `yarn start` in local to test. 
 
 Then create docker, 
 ## Build Docker
