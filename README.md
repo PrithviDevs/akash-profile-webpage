@@ -33,10 +33,11 @@ docker run -it -p 80:80 --rm profile-image:latest
 And push to docker hub.
 
 ## Deploy in Akash
+- You can find `deploy.yml` main project directory; update with your docker image.
 
 ### Create Deployment 
 ```
-akash tx deployment create deployment.yaml --from <from-name> --chain-id akashnet-2 -b block --fees <uakt> --node <rpc-address>
+akash tx deployment create deploy.yaml --from <from-name> --chain-id akashnet-2 -b block --fees <uakt> --node <rpc-address>
 ```
 ### Query bid list 
 
@@ -54,6 +55,5 @@ akash tx market lease create --from <from-name > --owner <owner-address> --provi
 ```
 akash provider send-manifest deploy.yaml --dseq xxx --provider <provider-address> --from <from-name> 
 ```
-- You can find `deployment.yml` main project directory; update with your docker image.
 - Use [ Deployment docs](https://github.com/tombeynon/akash-hello-world) from our friend @tombeynon or 
 - Use [Official Akash Docs](https://docs.akash.network/guides/deploy) 
