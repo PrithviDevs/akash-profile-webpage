@@ -46,18 +46,24 @@ akash tx deployment create deploy.yaml --from <from-name> --chain-id akashnet-2 
 ### Query bid list 
 
 ```
-akash query market bid list --owner <owner-address>
+akash query market bid list --owner <owner-address> --node <rpc-address>
 ```
 ### Create lease
 >Note: you get provider address, dseq, oseq, gseq from above query cmd
 ```
-akash tx market lease create --from <from-name > --owner <owner-address> --provider <provider-address> --dseq xxx --oseq 1 --gseq 1 --fees <xuakt> -b block --chain-id akashnet-2 
+akash tx market lease create --from <from-name > --owner <owner-address> --provider <provider-address> --dseq xxx --oseq 1 --gseq 1 --fees <xuakt> -b block --chain-id akashnet-2 --node <rpc-address>
 
 ```
 
-### Send Manifesto to Provider
+### Send manifest to Provider
 ```
-akash provider send-manifest deploy.yaml --dseq xxx --provider <provider-address> --from <from-name> 
+akash provider send-manifest deploy.yaml --dseq xxx --provider <provider-address> --from <from-name> --node <rpc-address>
 ```
-- Use [ Deployment docs](https://github.com/tombeynon/akash-hello-world) from our friend @tombeynon or 
-- Use [Official Akash Docs](https://docs.akash.network/guides/deploy) 
+### Query lease status 
+```
+akash provider lease-status --provider <provider-address>  --dseq xxxx --oseq 1 --gseq 1   --from <from-name> --node <rpc-address>
+```
+
+And also try to check these docs, 
+- [ Deployment docs](https://github.com/tombeynon/akash-hello-world) from our friend @tombeynon or 
+- [Official Akash Docs](https://docs.akash.network/guides/deploy) 
