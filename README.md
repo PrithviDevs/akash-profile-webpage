@@ -14,6 +14,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+## Demo 
+- [PrithviDevs-HNS](http://profile.prithvidevs.hns.to)
+
 ## Bulid Your own profile
 If you want to  build you own profile, follow below steps to  set it up
 - We have `Variables.js` under `src/utils`.
