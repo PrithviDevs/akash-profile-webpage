@@ -66,4 +66,4 @@ akash provider lease-status --provider <provider-address>  --dseq xxxx --oseq 1 
 
 And also try to check these docs, 
 - [ Deployment docs](https://github.com/tombeynon/akash-hello-world) from our friend @tombeynon or 
-- [Official Akash Docs](https://docs.akash.network/guides/deploy) 
+- [Official Akash docs](https://docs.akash.network/guides/deploy) 
