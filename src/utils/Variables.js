@@ -1,17 +1,14 @@
 export const values = {
-    name: '@PrithviDevs',
-    profile: 'https://pbs.twimg.com/profile_images/1361676166340444161/1N_zX2Ip.jpg',
+    name: 'Your Name',
+    profile: 'Profile image url',
     list: [{
         name: 'Twitter',
-        url: 'https://twitter.com/PrithviDevs',
+        url: 'https://twitter.com/xxxxx',
     }, {
         name: 'GitHub',
-        url: 'https://github.com/PrithviDevs',
+        url: 'https://github.com/xxxxx',
     }, {
         name: 'Medium',
-        url: 'https://medium.com/prithvidevs',
-    }, {
-        name: 'Keybase',
-        url: 'https://keybase.io/PrithviDevs',
+        url: 'https://medium.com/xxxxx',
     }]
 };
