@@ -42,6 +42,12 @@ And push to docker hub.
 - Update  the docker image
 - Update `services.web.expose.accept` with your domain
 
+
+### Create Certificates
+```
+akash tx cert create client --chain-id akashnet-2 --node <rpc-address> --from <from-name> --fees <uakt> -b block
+```
+
 ### Create Deployment 
 ```
 akash tx deployment create deploy.yaml --from <from-name> --chain-id akashnet-2 -b block --fees <uakt> --node <rpc-address>
