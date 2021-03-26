@@ -37,7 +37,10 @@ docker run -it -p 80:80 --rm profile-image:latest
 And push to docker hub.
 
 ## Deploy in Akash
-- You can find `deploy.yml` main project directory; update with your docker image.
+- You can find `deploy.yaml` main project directory; update with your docker image.
+## Update deploy.yaml 
+- Update  the docker image
+- Update `services.web.expose.accept` with your domain
 
 ### Create Deployment 
 ```
