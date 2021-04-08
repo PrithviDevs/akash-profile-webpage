@@ -1,5 +1,4 @@
 html, body, #root, .App, .profile_details {
-  min-height: 100% !important;
   height: 100%;
 }
 
@@ -10,6 +9,10 @@ html, body, #root, .App, .profile_details {
 
 .App {
   text-align: center;
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  height: auto;
 }
 
 .App-logo {

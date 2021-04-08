@@ -10,5 +10,9 @@ export const values = {
     }, {
         name: 'Medium',
         url: 'https://medium.com/xxxxx',
-    }]
+    },{
+        name: 'Keybase',
+        url: 'https://keybase.io/xxxxx',
+    }
+    ]
 };
